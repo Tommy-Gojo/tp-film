@@ -1,0 +1,35 @@
+h1{
+    text-align: center;
+}
+
+#cardFilm{
+    background: black;
+    width: 35rem; 
+    height: 735px;
+    overflow: hidden;
+    border-radius: 50px;
+    box-shadow: 10px 10px 10px 10px black, 10px 10px white;
+}
+img{
+    width: 40rem;
+    height: 730px;
+    object-fit: cover;
+    border-radius: 50px;
+    overflow: hidden;
+}
+p{
+    font-size: 1.35rem;
+    text-align: center;
+    color: white;
+    font-family: 'sansserif' ;
+    text-transform: capitalize;
+}
+main{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+#cardFilm:hover{
+    transition: all 0.5s;
+    height: 1180px;
+}
